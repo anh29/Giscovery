@@ -27,7 +27,7 @@
 }
 
 .category {
-  text-align: center;
+  align-self: center;
 }
 
 .category a {
