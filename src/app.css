@@ -1,0 +1,92 @@
+:root {
+  /* --primary-color: #ee4d2d; */
+  --primary-color: #1c82ad;
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
+  --border-color: #dbdbdb;
+  --star-gold-color: #ffce3e;
+
+  --header-height: 150px;
+  --navbar-height: 46px;
+  --header-with-search-height: calc(
+    var(--header-height) - var(--navbar-height)
+  );
+}
+
+* {
+  box-sizing: inherit; /*ke thua*/
+  font-weight: 300;
+  letter-spacing: 1px; /* khoảng cách các ký tự */
+}
+
+html {
+  font-size: 62.5%; /* co chu: =10px */
+  line-height: 1.8rem; /* do cao cua chu: 16px */
+  font-family: "Oswald", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.section {
+  padding: 4rem 0 2 rem;
+}
+
+.container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+}
+
+.btn {
+  padding: 0.6rem 1.5rem;
+  background-color: #ffffff;
+  border-radius: 3rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: #000;
+}
+
+img,
+video {
+  width: 100%;
+  height: auto;
+}
+
+input {
+  font-style: 100%;
+}

@@ -1,0 +1,108 @@
+.contain {
+  text-align: -webkit-center;
+  height: 55rem;
+  border-radius: 11px;
+  margin: 50px 60px;
+}
+
+.question {
+  background-color: #0468bf;
+  border-radius: 3px;
+  height: 160px;
+  text-align: center;
+}
+
+.questionTitle {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  line-height: 80px;
+}
+
+li input {
+  display: none;
+}
+
+/* CSS */
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 63px 0;
+}
+
+.item {
+  width: 31.33%;
+  margin: 5px 9px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  font-size: 16px; /* Kích thước chữ */
+  font-weight: bold; /* Độ đậm của chữ */
+  font-family: "Arial", sans-serif; /* Font chữ */
+  text-align: center; /* Căn giữa văn bản */
+  border-radius: 5px; /* Bo góc */
+}
+
+.item label {
+  display: block;
+}
+
+.item.selected {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.back.disabled,
+.save.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.item:hover {
+  background-color: #e0e0e0;
+}
+
+/* CSS cho nút "Back" */
+.back {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* CSS cho nút "Next" và "Save" */
+.next,
+.save {
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* CSS cho trạng thái nút "Next" và "Save" bị vô hiệu hóa */
+.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* CSS cho hover trên nút "Next" và "Save" */
+.next:hover,
+.save:hover {
+  background-color: #219653;
+}
+
+/* CSS cho hover trên nút "Back" */
+.back:hover {
+  background-color: #2980b9;
+}
