@@ -22,8 +22,10 @@ const ListUser = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Danh sách người dùng</h1>
+    <div className="container">
+      {/* <div className="navbar">
+        <h1>Danh sách người dùng</h1>
+      </div> */}
       <table className="user-table">
         <thead>
           <tr>
